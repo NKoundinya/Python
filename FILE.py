@@ -1,0 +1,8 @@
+Example=open("XXX.txt","r")
+print Example.readline()
+print Example.readline()
+print Example.read()
+Example.close()
+Example=open("XXX.txt","w")
+Example.write("Hello")
+Example.close()
